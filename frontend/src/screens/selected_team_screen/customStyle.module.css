@@ -1,0 +1,42 @@
+.success-button:hover {
+  background-color: transparent !important;
+  cursor: auto !important;
+}
+
+.saved-checkmark {
+  position: relative;
+  bottom: 24px;
+  height: 0px;
+  animation-name: savedCheckmark;
+  animation-duration: 1000ms;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+.progress-bar {
+  height: 24px;
+  border-radius: 10px;
+  animation-name: successSavedBar;
+  animation-duration: 1000ms;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+@keyframes savedCheckmark {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes successSavedBar {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+    background-color: #f3c623;
+  }
+}

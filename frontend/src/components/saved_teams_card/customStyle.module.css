@@ -1,0 +1,9 @@
+.delete-button-custom:hover {
+  color: #e44c55;
+}
+
+.img-overlay-custom {
+  position: absolute;
+  bottom: 0px;
+  opacity: 0.6;
+}

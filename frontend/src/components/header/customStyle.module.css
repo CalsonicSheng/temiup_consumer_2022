@@ -1,0 +1,10 @@
+.saved-team-nav {
+  position: relative;
+}
+
+.saved-team-count {
+  position: absolute;
+  border-radius: 50%;
+  top: -10px;
+  right: -20px;
+}

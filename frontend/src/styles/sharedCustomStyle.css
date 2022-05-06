@@ -1,0 +1,40 @@
+.radius-custom {
+  border-radius: 15px;
+}
+
+.radius-custom-top-list {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.radius-custom-bottom-list {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.link-custom {
+  text-decoration: none;
+}
+
+.list-group-item-custom {
+  background-color: #371f5c;
+}
+
+.img-custom {
+  object-fit: cover;
+}
+
+.input-custom {
+  background-color: #462d6b;
+  height: 45px;
+}
+
+.input-custom:focus {
+  outline: none !important;
+  border: 2px solid #1ba2f6;
+  box-shadow: 0 0 0px;
+}
+
+.line-through-decoration {
+  text-decoration: line-through;
+}

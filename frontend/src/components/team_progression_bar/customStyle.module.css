@@ -1,0 +1,46 @@
+.outer-bar-custom {
+  height: 25px;
+}
+
+.progression-bar-custom {
+  height: 100%;
+  overflow: hidden;
+}
+
+.size-track-custom {
+  position: relative;
+  bottom: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.wave-motion {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #3cf281;
+  border-radius: 15px;
+}
+
+.wave-motion:after {
+  content: '';
+  position: absolute;
+  width: 45px;
+  height: 25px;
+  right: 0px;
+  border-radius: 35%;
+  background-color: rgba(255, 255, 255, 1);
+  animation-name: barWave;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes barWave {
+  0% {
+    transform: translate(55%, 0px) rotate(0deg);
+  }
+  100% {
+    transform: translate(55%, 0px) rotate(360deg);
+  }
+}

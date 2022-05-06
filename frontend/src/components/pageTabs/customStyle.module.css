@@ -1,0 +1,18 @@
+.page-tab-selected-custom {
+  background-color: #ffc107;
+  border-radius: 35%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 3px solid #ffc107;
+}
+
+.page-tab-unselect-custom:hover {
+  border-bottom: 3px solid #ffc107;
+  cursor: pointer;
+}
+
+.chevron-custom:hover {
+  cursor: pointer;
+}

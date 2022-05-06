@@ -1,0 +1,11 @@
+.loading-box-shadow-custom {
+  box-shadow: 0 0 15px #4ca9e4;
+}
+
+.error-box-shadow-custom {
+  box-shadow: 0 0 15px #e76971;
+}
+
+.warning-box-shadow-custom {
+  box-shadow: 0 0 15px #ffc107;
+}

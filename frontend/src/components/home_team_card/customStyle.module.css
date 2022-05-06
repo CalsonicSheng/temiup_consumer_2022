@@ -1,0 +1,9 @@
+.img-custom {
+  object-fit: cover;
+}
+
+.image-frame:hover .img-custom {
+  transform: scale(1.3);
+  transition: 1s;
+  transition-delay: 0.5s;
+}

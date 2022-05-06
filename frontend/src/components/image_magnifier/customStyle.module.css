@@ -1,0 +1,8 @@
+.image-magnifier-container {
+  position: relative;
+  width: 100%;
+}
+
+.image-custom {
+  object-fit: cover;
+}
